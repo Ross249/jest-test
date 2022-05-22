@@ -97,9 +97,15 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "types": ["node", "jest"],
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "jsx": "react",
+    "baseUrl": "./",
     "paths": {
-      "utils/*": ["src/utils/*"]
-    },
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+      "utils/*": ["src/utils/*"],
+      "components/*": ["src/components/*"],
+      "apis/*": ["src/apis/*"],
+      "hooks/*": ["src/hooks/*"],
+      "store/*": ["src/store/*"]
+    }
   }
 }
