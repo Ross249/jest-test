@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.2",
@@ -20,8 +21,10 @@
     "jest": "^27.5.1",
     "jest-environment-jsdom-global": "^3.0.0",
     "jest-location-mock": "^1.0.9",
+    "jest-transform-stub": "^2.0.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
+    "msw": "^0.39.2",
     "style-loader": "^3.3.1",
     "ts-jest": "^27.1.4",
     "ts-loader": "^9.2.8",

@@ -190,4 +190,8 @@ module.exports = {
   // Whether to use watchman for file crawling
   // watchman: true,
   preset: "ts-jest",
+  transform: {
+    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$":
+      "jest-transform-stub",
+  },
 };
