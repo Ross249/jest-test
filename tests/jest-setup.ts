@@ -15,3 +15,4 @@
 //     },
 //   },
 // });
+import "jest-location-mock";
